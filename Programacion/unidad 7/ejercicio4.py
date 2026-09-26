@@ -5,14 +5,14 @@ print()
 
 contactos = {}
 
+# Aca agrego los contasctos con sus numeros al diccionario
 print("Ingresa 5 contactos:")
-j = 1
 for i in range(5):
-    nombre = input(f"Ingresa el {j} nombre: ")
+    nombre = input(f"Ingresa el {i + 1} nombre: ")
     tel = input("Ingresa su numero de telefono: ")
-    j += 1
     contactos.update({nombre: tel})
 
+# Aca hago la busqueda del nombre dentro del diccionario
 print("_____________________________________")
 nombre = input("Ingresa un nombre a buscar: ")
 if nombre in contactos:

@@ -11,7 +11,8 @@ print("-----------------------------------")
 for fruta, valor in precios_frutas.items():
     print(f"La fruta '{fruta}' custa: {valor}")
 print()
-    
+
+# Actualizo el diccionario con nuevas frutas
 precios_frutas.update(
     {
         'Naranja' : 1200,
@@ -20,8 +21,8 @@ precios_frutas.update(
     }
 )
 
+# Muestro el diccionario actualizado
 print(f"Listado de precios actualizado")
 print("-----------------------------------")
 for fruta, valor in precios_frutas.items():
     print(f"La fruta '{fruta}' custa: {valor}")
-    

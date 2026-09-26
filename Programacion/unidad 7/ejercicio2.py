@@ -1,10 +1,11 @@
-from ejercicio1 import precios_frutas
+from ejercicio1 import precios_frutas # Importo el diccionario del ejercicio anterior para su uso
 
 print("___________________________________________________________")
 print("__    EJERCICIO 2: Modificacion de lista de precios      __")
 print("___________________________________________________________")
 print()
 
+# Actualizo los valores del diccionario
 precios_frutas.update(
     {
         'Banana' : 1330,
