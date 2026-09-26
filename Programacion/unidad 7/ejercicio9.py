@@ -1,4 +1,4 @@
 print("___________________________________________________________")
-print("__   EJERCICIO 3: Recuperar frutas de lista de precios   __")
+print("__           EJERCICIO 9: Agenda de actividades          __")
 print("___________________________________________________________")
 print()
