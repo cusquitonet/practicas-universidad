@@ -1,3 +1,9 @@
+'''
+    Ejericio 4:
+    Repetir el ejercicio 3, pero usando excepciones múltiples que hagan alusión a los tipos de
+    errores detectados.
+'''
+
 a = 10
 try:
     b = input("Introduce un número: ")

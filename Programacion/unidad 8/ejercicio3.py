@@ -1,3 +1,9 @@
+'''
+    Ejercicio 3:
+    Utilizando el código del ejercicio 1, mantener el código con los errores originales e incluir
+    bloques try-except para que la ejecución del programa no se frene al encontrar los errores.
+'''
+
 a = 10
 try:
     b = input("Introduce un número: ")

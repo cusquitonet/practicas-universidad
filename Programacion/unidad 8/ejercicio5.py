@@ -1,3 +1,8 @@
+'''
+    Ejercicio 5:
+    Repetir el ejercicio 4, pero esta vez incluyendo bloques else y finally.
+'''
+
 a = 10
 try:
     b = input("Introduce un número: ")
