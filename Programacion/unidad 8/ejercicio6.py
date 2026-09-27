@@ -9,13 +9,13 @@
 '''
 
 try:
-    numero = int(input("Ingresa un numero: "))
+    numero = int(input("Ingresa un numero: ")) # Pido el numero y lo paso a entero
 
-except ValueError:
-    print("Debes ingresar un numero entero")
+except ValueError: # Capturo el error si no pone un numero
+    print("Debes ingresar un numero entero") 
 
-except Exception as e:
+except Exception as e: # Este except cubro otro errores que puedan aparecer
     print(f"Se produjo un error inesperado: {e}")
 
-else:
+else: # Si todo va bien muestra el numero
     print(f"El numero ingresado es: {numero}")

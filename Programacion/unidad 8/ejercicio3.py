@@ -5,7 +5,7 @@
 '''
 
 a = 10
-try:
+try: # Ingreso todo el bloque dentro del try para que no genere errores adicionales
     b = input("Introduce un número: ")
     result = a / b 
     print(f"Resultado: {result}") 
@@ -13,8 +13,8 @@ try:
 except:
     print("No se puede dividir un numero por un texto")
 
+numbers = [1, 2, 3] # La lista no necesita ser evaluada por eso la dejo fuera
 try:
-    numbers = [1, 2, 3]
     print(numbers[5]) 
 
 except:

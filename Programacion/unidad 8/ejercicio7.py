@@ -4,7 +4,7 @@
     nuevo número luego de encontrar un error.
 '''
 
-while True:
+while True: # Agregando esta linea podremos pedir el numero hasta que el usuario ponga un numero
     try:
         numero = int(input("Ingresa un numero: "))
 
@@ -14,6 +14,6 @@ while True:
     except Exception as e:
         print(f"Se produjo un error inesperado: {e}")
 
-    else:
+    else: # Cuando el numnero es correcto lo muestra
         print(f"El numero ingresado es: {numero}")
-        break
+        break # Esta linea corta el while y sale. esta en el else ya que es donde apunta el try si no tiene errores.

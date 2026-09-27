@@ -18,12 +18,13 @@ except ZeroDivisionError:
     print("Error matematico: No se puede dividir entre cero.")
 
 else:
-    print(f"Resultado: {result}") 
+    print(f"Resultado: {result}") # En el else pongo el codigo que se puede ejecutar si todo va bien en el try
 
 finally:
     print("El codigo ha capturado todos los errores posibles")
+
+numbers = [1, 2, 3]
 try:
-    numbers = [1, 2, 3]
     print(numbers[5]) 
 
 except IndexError:

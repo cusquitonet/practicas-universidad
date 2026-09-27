@@ -5,15 +5,16 @@
 '''
 
 a = 10
-while True:
-    b = input("Introduce un número: ")
-    if b.isdigit():
-        b = int(b)
-        break
-    else:
-        print("Ingrese un numero!")
+b = input("Introduce un número: ")
+if b.isdigit(): # Valido que el dato ingresado sea un numero y ahi permito que haga la operacion y la muestre
+    b = int(b)
+    result = a / b
+    print(f"Resultado: {result}") # El print debe ir dentro del if para que no genere otro error
+else:
+    print("El dato ingresado no es un numero!")
 
-result = a / b
-print(f"Resultado: {result}")
 numbers = [1, 2, 3]
-print(numbers[2])
+if len(numbers) == 5:
+    print(numbers[5])
+else:
+    print("La lista tiene menos elementos de lo solicitado")
