@@ -1,0 +1,6 @@
+huevos,3200,60
+leche,2500,12
+manteca,1800,24
+Detergente, 1900.0, 48
+Jabon en polvo, 1250.9, 34
+yogurt, 1200.0, 30
