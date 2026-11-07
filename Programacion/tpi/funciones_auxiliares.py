@@ -55,3 +55,14 @@ def validar_entero_positivo(valor, descripcion):
     '''
     if valor <= 0:
         raise ValueError(f'{descripcion} debe ser mayor que 0.') # Aca la IA me dio una forma de incrustar los textos para print e input.
+
+
+def convertir_entero(texto, mensaje):
+    '''
+    Convierte un texto a número entero.
+    Si no se puede convertir, lanza ValueError con el mensaje indicado.
+    '''
+    try:
+        return int(texto)
+    except ValueError:
+        raise ValueError(mensaje)
