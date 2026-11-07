@@ -1,3 +1,5 @@
+<img width="2856" height="854" alt="logo-utn-siglas" src="https://github.com/user-attachments/assets/719d6351-5bdf-43ac-b23c-e28598737b89" />
+
 # TPI Programación 1: Sistema de Control de Inventario
 
 Trabajo Práctico Integrador de la Tecnicatura Universitaria en Programación a Distancia (UTN).
